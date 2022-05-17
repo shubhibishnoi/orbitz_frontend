@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=MonteCarlo&family=Montserrat&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&family=Dongle:wght@300&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=MonteCarlo&family=Montserrat&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+
+li,
+a {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #cdf6e5;
+    text-decoration: none;
+}
+
+li,
+a:hover {
+    color: hsl(175, 84%, 44%);
+
+}
+
+h1 {
+    background-color: #cdf6e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-left: 10px;
+    margin-right: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 6%;
+    background-color: #cdf6e5;
+}
+
+.navLink {
+    list-style: none;
+}
+
+.navLink li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.tagline-image {
+    padding-left: 50%;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.appName h1 {
+
+    background-color: #cdf6e5;
+}
+
+
+.middle {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+
+}
+
+.middle .tagline-content h2 {
+    padding-top: 10.8%;
+    padding-left: 10%;
+    font-size: 2.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 9px;
+}
+
+
+
+.middle button {
+    margin-top: 70px;
+    padding: 13px 15px;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #cdf6e5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: hsl(155, 56%, 67%);
+    color: black;
+
+
+}
